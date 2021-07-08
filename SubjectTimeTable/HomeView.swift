@@ -10,8 +10,10 @@ import SwiftUI
 struct HomeView: View {
     @State private var show: Bool = false
     var body: some View {
+        NavigationView {
         VStack{
             Text("履修登録").padding()
+            NavigationLink(destination: RegisterSubjectView()) {
             Button(action:{self.show = true}){
                 Text("+")
                     .font(.largeTitle)
@@ -20,7 +22,17 @@ struct HomeView: View {
                     .background(Color.blue)
                     .cornerRadius(25, antialiased: true)
             }
+            .sheet(isPresented: self.$show) {
+                RegisterSubjectView()
+                    }
+            }
+        }
         }
     }
 }
 
+struct HomeView_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeView()
+    }
+}

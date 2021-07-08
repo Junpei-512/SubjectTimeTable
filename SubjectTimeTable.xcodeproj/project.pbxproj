@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203E6DB926967FD7007A7C46 /* RegisterSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203E6DB826967FD7007A7C46 /* RegisterSubjectView.swift */; };
 		20FEC13126948CBA006ECB01 /* SubjectTimeTableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FEC13026948CBA006ECB01 /* SubjectTimeTableApp.swift */; };
 		20FEC13326948CBA006ECB01 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FEC13226948CBA006ECB01 /* LoginView.swift */; };
 		20FEC13526948CBB006ECB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FEC13426948CBB006ECB01 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		203E6DB826967FD7007A7C46 /* RegisterSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterSubjectView.swift; sourceTree = "<group>"; };
 		20FEC12D26948CBA006ECB01 /* SubjectTimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubjectTimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FEC13026948CBA006ECB01 /* SubjectTimeTableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectTimeTableApp.swift; sourceTree = "<group>"; };
 		20FEC13226948CBA006ECB01 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				20FEC13926948CBB006ECB01 /* Info.plist */,
 				20FEC13626948CBB006ECB01 /* Preview Content */,
 				20FEC13F26949670006ECB01 /* HomeView.swift */,
+				203E6DB826967FD7007A7C46 /* RegisterSubjectView.swift */,
 			);
 			path = SubjectTimeTable;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203E6DB926967FD7007A7C46 /* RegisterSubjectView.swift in Sources */,
 				20FEC14026949670006ECB01 /* HomeView.swift in Sources */,
 				20FEC13326948CBA006ECB01 /* LoginView.swift in Sources */,
 				20FEC13126948CBA006ECB01 /* SubjectTimeTableApp.swift in Sources */,
